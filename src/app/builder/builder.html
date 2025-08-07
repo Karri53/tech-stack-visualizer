@@ -1,0 +1,25 @@
+<section class="builder-container">
+  <h1 class="title">Tech Stack Builder</h1>
+  <p class="subtitle">
+    Use this tool to visually build your project’s tech stack. Add your favorite tools, languages, or frameworks below.
+  </p>
+
+  <!-- Input Section -->
+  <form (submit)="addTech()">
+    <input [(ngModel)]="newTech" name="techInput" placeholder="e.g. Angular, Django, PostgreSQL" required />
+    <button type="submit">Add Tech</button>
+  </form>
+
+  <!-- Display Added Techs -->
+  <div class="stack-list" *ngIf="stack.length > 0">
+    <ng-container *ngFor="let tech of stack; let i = index">
+      <stack-card [tech]="tech" (remove)="removeTech(i)"></stack-card>
+    </ng-container>
+  </div>
+
+  <!-- Empty state -->
+  <p *ngIf="stack.length === 0" class="empty-state">
+    No tech added yet. Start typing above!
+  </p>
+</section>
+

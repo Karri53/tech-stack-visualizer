@@ -1,0 +1,33 @@
+.app-header {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #4b5563;
+    position: relative;
+
+    &.active {
+      color: #7c3aed;
+    }
+
+    &:hover {
+      color: #7c3aed;
+    }
+  }
+}
+
+.main-content {
+  padding: 2rem;
+}
