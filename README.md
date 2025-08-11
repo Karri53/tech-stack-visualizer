@@ -30,11 +30,3 @@ An interactive Angular app that lets users build and visualize their tech stacks
 - SCSS for styles
 - Standalone Components & Angular Signals
 
----
-
-## Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/tech-stack-visualizer.git
-cd tech-stack-visualizer
