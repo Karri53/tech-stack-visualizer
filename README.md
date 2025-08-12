@@ -17,7 +17,7 @@ An interactive Angular app that lets users build and visualize their tech stacks
 ## Demo
 
 <!-- Replace the YouTube link or file path when ready -->
-[![Tech Stack Visualizer Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://youtu.be/hw3GU7_eZAo)
+[![Tech Stack Visualizer Demo](https://img.youtube.com/vi/hw3GU7_eZAo/0.jpg)](https://youtu.be/hw3GU7_eZAo)
 
 > Click the image above to watch a short walkthrough of the app in action.
 
