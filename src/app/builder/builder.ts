@@ -6,7 +6,7 @@ import { StackCardComponent } from '../stack-card/stack-card'; // ✅ make sure 
 @Component({
   selector: 'app-builder',
   standalone: true,
-  imports: [CommonModule, FormsModule, StackCardComponent], // ✅ CommonModule added here
+  imports: [CommonModule, FormsModule, StackCardComponent], 
   templateUrl: './builder.html',
   styleUrls: ['./builder.scss']
 })

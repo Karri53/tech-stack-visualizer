@@ -1,6 +1,7 @@
 # Tech Stack Visualizer
 
 An interactive Angular app that lets users build and visualize their tech stacks using clean UI components and modern web styling. Built with Angular 17 and a sprinkle of magic.
+An interactive Angular app that lets users build and visualize their tech stacks using clean UI components and modern web styling. Built with Angular 17 and a sprinkle of magic.
 
 ---
 
@@ -16,7 +17,6 @@ An interactive Angular app that lets users build and visualize their tech stacks
 
 ## Demo
 
-<!-- Replace the YouTube link or file path when ready -->
 [![Tech Stack Visualizer Demo](https://img.youtube.com/vi/hw3GU7_eZAo/0.jpg)](https://youtu.be/hw3GU7_eZAo)
 
 > Click the image above to watch a short walkthrough of the app in action.
@@ -29,4 +29,3 @@ An interactive Angular app that lets users build and visualize their tech stacks
 - [TypeScript](https://www.typescriptlang.org/)
 - SCSS for styles
 - Standalone Components & Angular Signals
-
